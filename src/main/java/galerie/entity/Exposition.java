@@ -40,4 +40,62 @@ public class Exposition {
         // return ventes.stream().map(vente -> vente.getPrixVente()).reduce(0f, Float::sum);
     }
 
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getIntitule() {
+		return intitule;
+	}
+
+	public void setIntitule(String intitule) {
+		this.intitule = intitule;
+	}
+
+	public LocalDate getDebut() {
+		return debut;
+	}
+
+	public void setDebut(LocalDate debut) {
+		this.debut = debut;
+	}
+
+	public Integer getDuree() {
+		return duree;
+	}
+
+	public void setDuree(Integer duree) {
+		this.duree = duree;
+	}
+
+	public Galerie getOrganisateur() {
+		return organisateur;
+	}
+
+	public void setOrganisateur(Galerie organisateur) {
+		this.organisateur = organisateur;
+	}
+
+	public List<Tableau> getOeuvres() {
+		return oeuvres;
+	}
+
+	public void setOeuvres(List<Tableau> oeuvres) {
+		this.oeuvres = oeuvres;
+	}
+
+	public List<Transaction> getVentes() {
+		return ventes;
+	}
+
+	public void setVentes(List<Transaction> ventes) {
+		this.ventes = ventes;
+	}
+    
+    
+
 }
